@@ -45,6 +45,11 @@
 		8FBB3F97A63B6B46A451471856E62EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
 		966CE8135762AD4192CD85145A20690A /* BEAN_Globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 5256FF328A40D8C2552BA03AE3FB6AD4 /* BEAN_Globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BEF5216473B0FA4FA0DACEB6AEB313 /* PTDBeanManager+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 9289E3B9823DDEE9FAB3F19E104856C2 /* PTDBeanManager+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EBDD7821E97270500BA939F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDD77D1E97270500BA939F /* AppDelegate.swift */; };
+		9EBDD7831E97270500BA939F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBDD77E1E97270500BA939F /* Assets.xcassets */; };
+		9EBDD7841E97270500BA939F /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9EBDD77F1E97270500BA939F /* Base.lproj */; };
+		9EBDD7851E97270500BA939F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EBDD7801E97270500BA939F /* Info.plist */; };
+		9EBDD7861E97270500BA939F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDD7811E97270500BA939F /* ViewController.swift */; };
 		A3E3FF634CC5C83673664A9A7BD662FF /* CBPeripheral+UniqueId.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F31D1A29D31B08335EC987497408DA5 /* CBPeripheral+UniqueId.m */; };
 		A77D9EC73FF13592CFECFB3C6ED8C6A5 /* PTDBEAN_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3611FB1A3F92CE5A00E932C1F82846B /* PTDBEAN_Helper.m */; };
 		AA7095AB6DA82BDCE2E57EAAE7F8E780 /* DevInfoProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C1DCDA0833D85E1A445F08F6810EFA /* DevInfoProfile.m */; };
@@ -128,6 +133,11 @@
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		9AC5E5C952E814E85F38EBADA4C3ED84 /* Bean-iOS-OSX-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Bean-iOS-OSX-SDK.modulemap"; sourceTree = "<group>"; };
 		9D7EFC4D964983D687453CF06520CC67 /* GattSerialMessageRxAssembler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GattSerialMessageRxAssembler.h; path = "source/Profiles/Gatt Serial/Transport/GattSerialMessageRxAssembler.h"; sourceTree = "<group>"; };
+		9EBDD77D1E97270500BA939F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../BeanBlinkOnButtonPress/AppDelegate.swift; sourceTree = "<group>"; };
+		9EBDD77E1E97270500BA939F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../BeanBlinkOnButtonPress/Assets.xcassets; sourceTree = "<group>"; };
+		9EBDD77F1E97270500BA939F /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = ../BeanBlinkOnButtonPress/Base.lproj; sourceTree = "<group>"; };
+		9EBDD7801E97270500BA939F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../BeanBlinkOnButtonPress/Info.plist; sourceTree = "<group>"; };
+		9EBDD7811E97270500BA939F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../BeanBlinkOnButtonPress/ViewController.swift; sourceTree = "<group>"; };
 		9F31D1A29D31B08335EC987497408DA5 /* CBPeripheral+UniqueId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+UniqueId.m"; path = "source/Categories/CBPeripheral+UniqueId.m"; sourceTree = "<group>"; };
 		A0E61270445396D561D59EBD5441BB38 /* 201504270003_BEAN_imgA.bin */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.macbinary; name = 201504270003_BEAN_imgA.bin; path = firmware/201504270003_BEAN_imgA.bin; sourceTree = "<group>"; };
 		A3611FB1A3F92CE5A00E932C1F82846B /* PTDBEAN_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTDBEAN_Helper.m; path = source/Helper/PTDBEAN_Helper.m; sourceTree = "<group>"; };
@@ -315,6 +325,11 @@
 		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				9EBDD77D1E97270500BA939F /* AppDelegate.swift */,
+				9EBDD77E1E97270500BA939F /* Assets.xcassets */,
+				9EBDD77F1E97270500BA939F /* Base.lproj */,
+				9EBDD7801E97270500BA939F /* Info.plist */,
+				9EBDD7811E97270500BA939F /* ViewController.swift */,
 				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
 			);
 			name = "Targets Support Files";
@@ -431,6 +446,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					674B1E114448108DC739666E3AC55473 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -456,6 +476,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16C0D380A790D680F41CDC0C3A5A69A5 /* 201504270003_BEAN_imgA.bin in Resources */,
+				9EBDD7831E97270500BA939F /* Assets.xcassets in Resources */,
+				9EBDD7841E97270500BA939F /* Base.lproj in Resources */,
+				9EBDD7851E97270500BA939F /* Info.plist in Resources */,
 				25E9B508331BC7418F34ABD2524F3578 /* 201504270003_BEAN_imgB.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +504,7 @@
 				1880020606011488E3DAEA2BE6155487 /* BEAN_Helper.m in Sources */,
 				794820861D6CFB3884CAB2419EDE2F81 /* BleProfile.m in Sources */,
 				132D4A00A793876E7650C690755E2AF1 /* CBPeripheral+RSSI_Universal.m in Sources */,
+				9EBDD7861E97270500BA939F /* ViewController.swift in Sources */,
 				A3E3FF634CC5C83673664A9A7BD662FF /* CBPeripheral+UniqueId.m in Sources */,
 				AA7095AB6DA82BDCE2E57EAAE7F8E780 /* DevInfoProfile.m in Sources */,
 				3E4AE3450DE9715E8353EFF3DB790354 /* GattPacket.m in Sources */,
@@ -497,6 +521,7 @@
 				4AE15EAE84B46A0E96FF44591BF8A48E /* PTDBeanRadioConfig.m in Sources */,
 				D4DB19175AACAC9B0D5FF127B8C69FF8 /* PTDBeanRemoteFirmwareVersionManager.m in Sources */,
 				5CA2C3A9FB371E83E9A795EAC37FCF8E /* PTDBleDevice.m in Sources */,
+				9EBDD7821E97270500BA939F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63E1E0A370A7AEB1B7033DCA268E6231 /* Bean-iOS-OSX-SDK.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -602,6 +628,8 @@
 				PRODUCT_NAME = Bean_iOS_OSX_SDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -676,6 +704,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63E1E0A370A7AEB1B7033DCA268E6231 /* Bean-iOS-OSX-SDK.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -693,6 +722,7 @@
 				PRODUCT_NAME = Bean_iOS_OSX_SDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

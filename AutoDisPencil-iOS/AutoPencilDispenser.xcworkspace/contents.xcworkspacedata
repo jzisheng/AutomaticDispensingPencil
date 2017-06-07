@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BeanBlinkOnButtonPress.xcodeproj">
+      location = "group:/Users/jasonchang/Github/AutomaticDispensingPencil/AutoDisPencil-iOS/AutoPencilDispenser.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutoPencilDispenser.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
