@@ -1,6 +1,22 @@
 ![alt text](https://github.com/jzisheng/AutomaticDispensingPencil/blob/master/demo.gif)
 
-# Automatic Pencil Dispenser
-Tired of having to use your hands with a mechanical pencil? Introducing the Automatic Pencil Dispenser. A Simple button and a servo attached to a pencil can change your life.
+# ADP - Automatic Dispensing Pencil
 
-In the GIF above, I used a LightBlue Bean, RC Hobby Servo, and spare BIC Mechanical Pencil for parts.
+Created to help my ease my cramped fingers from unncessary stress. 
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing.
+
+### Prerequisites
+
+Servo's and Arduino IDE. And some gaffer tape.
+
+## Built With
+
+* [Lightblue Bean+](https://punchthrough.com/bean) - The platform used
+* Bic Mechanical Pencil - The Pencil
+
+## Authors
+
+* **Zisheng Jason chang** - [jzisheng](https://github.com/jzisheng)
